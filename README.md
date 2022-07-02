@@ -53,7 +53,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.names;
+})();
 })();
 </script>
 ```
@@ -141,6 +143,7 @@ var data = names();
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-names@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 var data = names();
 var len = data.length;
@@ -153,6 +156,7 @@ for ( i = 0; i < 100; i++ ) {
     console.log( data[ idx ] );
 }
 
+})();
 })();
 </script>
 </body>
@@ -260,13 +264,13 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/datasets/us-states-abbr]: https://github.com/stdlib-js/datasets-us-states-abbr/tree/umd
+[@stdlib/datasets/us-states-abbr]: https://github.com/stdlib-js/datasets-us-states-abbr/tree/umd/tree/umd
 
-[@stdlib/datasets/us-states-capitals]: https://github.com/stdlib-js/datasets-us-states-capitals/tree/umd
+[@stdlib/datasets/us-states-capitals]: https://github.com/stdlib-js/datasets-us-states-capitals/tree/umd/tree/umd
 
-[@stdlib/datasets/us-states-capitals-names]: https://github.com/stdlib-js/datasets-us-states-capitals-names/tree/umd
+[@stdlib/datasets/us-states-capitals-names]: https://github.com/stdlib-js/datasets-us-states-capitals-names/tree/umd/tree/umd
 
-[@stdlib/datasets/us-states-names-capitals]: https://github.com/stdlib-js/datasets-us-states-names-capitals/tree/umd
+[@stdlib/datasets/us-states-names-capitals]: https://github.com/stdlib-js/datasets-us-states-names-capitals/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
