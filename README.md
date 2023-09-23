@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import names from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-names@deno/mod.js';
+import names from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-names@v0.1.0-deno/mod.js';
 ```
 
 #### names()
@@ -122,7 +122,7 @@ var data = names();
 ```javascript
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import names from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-names@deno/mod.js';
+import names from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-names@v0.1.0-deno/mod.js';
 
 var data = names();
 var len = data.length;
