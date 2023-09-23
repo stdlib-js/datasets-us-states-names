@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import names from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-names@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/datasets-us-states-names/tags). For example,
+
+```javascript
 import names from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-names@v0.1.0-deno/mod.js';
 ```
 
@@ -122,7 +127,7 @@ var data = names();
 ```javascript
 import floor from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-floor@deno/mod.js';
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@deno/mod.js';
-import names from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-names@v0.1.0-deno/mod.js';
+import names from 'https://cdn.jsdelivr.net/gh/stdlib-js/datasets-us-states-names@deno/mod.js';
 
 var data = names();
 var len = data.length;
